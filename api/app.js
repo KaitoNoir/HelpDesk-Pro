@@ -16,6 +16,10 @@ function creerApp(stockage = creerStockage()) {
       res.status(503).json({ status: 'ko', erreur: err.message });
     }
   });
+  
+  app.get('/version', (_req, res) => {
+res.json({ version: process.env.APP_VERSION || '0.1.0' });
+});
 
   app.get('/tickets', async (_req, res, next) => {
     try {
