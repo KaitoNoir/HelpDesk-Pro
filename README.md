@@ -50,3 +50,8 @@ npm start         # http://localhost:3000/health
 ## Variables d'environnement
 
 Voir `.env.example`. Aucune valeur réelle ne doit être versionnée.
+
+#EQUIPE
+- François : Francois-pixel3D
+- Mahmoud : KaitoNoir
+Dépôt :https://github.com/KaitoNoir/HelpDesk-Pro
