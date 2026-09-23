@@ -2,7 +2,7 @@ const express = require('express');
 const { creerStockage, PRIORITES } = require('./db');
 const { version } = require('./package.json');
 
-// Construit l'application Express. Le stockage est injectable (tests).
+// Modifiez un commentaire dans app.js
 function creerApp(stockage = creerStockage()) {
   const app = express();
   app.use(express.json());
@@ -58,3 +58,4 @@ function creerApp(stockage = creerStockage()) {
 }
 
 module.exports = { creerApp };
+

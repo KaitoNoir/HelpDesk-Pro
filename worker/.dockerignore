@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+<<<<<<< HEAD
+coverage
+tests
+.env
+*.md
+=======
+.git
+.gitignore
+Dockerfile
+.dockerignore
+>>>>>>> a83ba591718a38db347deb3bfe1dfb4f763e5c34
