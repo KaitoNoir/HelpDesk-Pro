@@ -50,8 +50,10 @@ function creerApp(stockage = creerStockage()) {
     console.error(err);
     res.status(500).json({ erreur: 'Erreur interne' });
   });
-
+// test
   return app;
 }
 
 module.exports = { creerApp };
+
+
