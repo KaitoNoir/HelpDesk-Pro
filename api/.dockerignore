@@ -1,0 +1,13 @@
+# Pas besoin d'envoyer ces trucs dans l'image
+
+node_modules   # dossier des dépendances déjà installées sur ton PC — inutile, on les réinstalle proprement dans le conteneur avec npm ci
+
+npm-debug.log  # fichier de log généré en cas d'erreur npm — sert à rien dans l'image
+
+coverage       # rapport de couverture de tests — sert à rien à l'exécution
+
+tests          # dossier des tests — inutile une fois l'appli en prod
+
+.env           # fichier avec tes variables secrètes (mots de passe, clés...) — jamais dans une image Docker
+
+*.md           # tous les fichiers de documentation (README.md etc.) — inutile à l'exécution
