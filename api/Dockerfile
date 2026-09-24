@@ -1,5 +1,8 @@
 # Image de base : Node.js version 22, légère (alpine)
 #FROM node:22-alpine
+
+# Définit l'image de base par défaut.
+# Cette valeur peut être modifiée avec --build-arg lors du build.
 ARG BASE=node:22-alpine
 FROM ${BASE}
 # Dossier de travail dans le conteneur
