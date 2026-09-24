@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-node_modules
-npm-debug.log
-coverage
-tests
-.env
-*.md
-=======
 # Pas besoin d'envoyer ces trucs dans l'image
 
 node_modules   # dossier des dépendances déjà installées sur ton PC — inutile, on les réinstalle proprement dans le conteneur avec npm ci
@@ -19,4 +11,3 @@ tests          # dossier des tests — inutile une fois l'appli en prod
 .env           # fichier avec tes variables secrètes (mots de passe, clés...) — jamais dans une image Docker
 
 *.md           # tous les fichiers de documentation (README.md etc.) — inutile à l'exécution
->>>>>>> a83ba591718a38db347deb3bfe1dfb4f763e5c34
