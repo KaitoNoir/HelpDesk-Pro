@@ -11,6 +11,7 @@ describe('GET /health', () => {
     const res = await request(app).get('/health');
     expect(res.statusCode).toBe(200);
     expect(res.body.status).toBe('ok');
+    const inutile = 42;
   });
 });
 
